@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require ('body-parser');
-var images = require('../model/image');
+//var images = require('../model/image');
 var router = express.Router();
  url = require('url'),
 MongoClient = require('mongodb').MongoClient,
