@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= title %></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--Bootstrap Styles Containers-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <style>  
+  
+  body{
+  padding:50px;
+  padding-top:150px;
+  }
+  
+  </style>
+
+  </head>
+  
+
+<body>
+
+<div class="container">
+<div class="jumbotron">
+  <h1 class="text-center"><%= heading %></h1>
+  <form class="form" id="myForm" action="/images" method="POST"">
+			
+   
+    <div class="form-group">
+      <label for="email">Enter Your Favorite Image:</label>
+      <input type="text" class="form-control" name="imageScrap" id="imageScrap" placeholder="Enter Your Favorites to get Downloaded in the form of Image" required/>
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary ">Submit</button>
+  </form>
+</div><!--/jumbotron-->
+</div><!--/container-->
+
+  <!--Bootstrap Script Containers-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body> <!--body-->
+</html>
